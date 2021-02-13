@@ -20,13 +20,7 @@ sudo chmod -R 777 bootstrap/cache
 composer install --no-dev --optimize-autoloader
 ```
 
-4) Execute o comando para copiar configurações da aplicação
-
-``` bash
-cp .env.example .env
-```
-
-5) Edite o arquivo *.env* para adicionar as credenciais do instagram
+4) Edite o arquivo *.env* para adicionar as credenciais do instagram
 
 ``` text
 INSTAGRAM_USERNAME=seu-usuario-do-instagram
